@@ -22,7 +22,7 @@ This dataset includes standard and custom parcellations derived from functional 
 ---------------------------------
 ### 2. Subject-specific custom parcellations
 
-Individual ROI masks and parcellations in native subject space are saved under ``./tpl-sub0*T1w`` for each subject. The scripts used to produce most custom masks and atlases can be found [here](https://github.com/courtois-neuromod/cneuromod_extract_tseries/tree/main/timeseries/masks). Available files include:<br><br>
+Individual ROI masks and parcellations in native subject space are saved under ``./tpl-sub0*T1w`` for each subject. The scripts used to produce most custom masks and atlases can be found [here](https://github.com/courtois-neuromod/cneuromod_extract_tseries/tree/main/timeseries/masks). Available parcellations include:<br><br>
 
 **2.1 Individual grey matter masks**
 
@@ -54,7 +54,7 @@ E.g., ``./tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-func_atlas-langTon
 
 **2.3 Yeo networks (n=6) derived from seed functional connectivity**
 
-Networks are based on [Yeo et al., 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174820/)
+Networks are based on [Yeo et al., 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174820/).
 For each subject, each network was derived by averaging the signal within a
 seed parcel (MIST-ROI atlas), and by correlating its activation with the
 rest of the brain using resting state runs from the CNeuroMod hcptrt dataset. Network masks are available in
@@ -69,7 +69,8 @@ Networks include:
 * Ventral attention network
 * Visual network
 
-E.g., ``./tpl-sub0*T1w/tpl-sub*T1w_res-func_atlas-yeo7networks_label-defaultMode_mask.nii.gz``,
+E.g.,\
+``./tpl-sub0*T1w/tpl-sub*T1w_res-func_atlas-yeo7networks_label-defaultMode_mask.nii.gz``,\
 ``./tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_sub-0*_res-func_atlas-yeo7networks_label-defaultMode_mask.nii.gz``<br><br>
 
 
