@@ -34,7 +34,9 @@ E.g.,\
 ``./tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_sub-*_res-func_atlas-Ward_desc-10k_dseg.nii.gz``,\
  ``./tpl-sub*T1w/tpl-sub*T1w_res-func_atlas-Ward_desc-10k_dseg.nii.gz``.
 
- The nested assignment to larger Shaefer18-1000Parcels7Networks is specified in ``./tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_sub-*_atlas-Ward_desc-10k_dseg.tsv`` and ``./tpl-sub*T1w/tpl-sub*T1w_atlas-Ward_desc-10k_dseg.tsv``.<br><br>
+ The nested assignment to larger Shaefer18-1000Parcels7Networks is specified in:\
+ ``./tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_sub-*_atlas-Ward_desc-10k_dseg.tsv``\
+ and ``./tpl-sub*T1w/tpl-sub*T1w_atlas-Ward_desc-10k_dseg.tsv``.<br><br>
 
 
 **2.2 Language ROI masks (n=8)**
@@ -55,8 +57,8 @@ ROIs include:
 E.g.,\
 ``./tpl-sub0*T1w/tpl-sub*T1w_res-func_atlas-langToneva_label-AntTemp_mask.nii.gz``
 
-ROI masks are also available in MNI space in a format compatible with all 6 subjects.
-E.g.,
+ROI masks are also available in MNI space in a format compatible with all 6 subjects.\
+E.g.,\
 ``./tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-func_atlas-langToneva_label-AntTemp_mask.nii.gz``<br><br>
 
 
